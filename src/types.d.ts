@@ -1,0 +1,3 @@
+type levelProps = {
+    level: number
+};
