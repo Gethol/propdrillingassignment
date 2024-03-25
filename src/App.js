@@ -8,7 +8,7 @@ import {ContextProvider} from './context/ContextProvider.tsx'
 function App() {
   return (
     // <PropDrilling level = {1} />
-    <ContextProvider level = {4} />
+    <ContextProvider />
     
   );
 }
