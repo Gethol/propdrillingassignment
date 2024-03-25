@@ -2,7 +2,7 @@ type levelProps = {
     level: number
 };
 
-type LevelContext = {
+type LevelContextType = {
     level: number,
 
 }
