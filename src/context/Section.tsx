@@ -1,6 +1,6 @@
 import React from "react"
 import { useContext, createContext, useState } from "react";
-import SubSection from "../context/SubSection";
+import SubSection from "./SubSection.tsx";
 
 const Section = () => {
 
