@@ -3,7 +3,7 @@ import { useContext, createContext, useState } from "react";
 import { LevelContext } from "./LevelContext.tsx";
 import Section from "./Section.tsx";
 
-const ContextProvider = () => {
+export const ContextProvider = () => {
     const [level, setLevel] = useState(0)
 
     return(
@@ -12,3 +12,5 @@ const ContextProvider = () => {
     </LevelContext.Provider>
     );
 }
+
+export default ContextProvider;
