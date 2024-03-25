@@ -13,4 +13,4 @@ const SubSubSection = () => {
     );
 } 
 
-export default SubSection;
+export default SubSubSection;
