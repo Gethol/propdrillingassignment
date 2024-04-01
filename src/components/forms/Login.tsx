@@ -27,6 +27,15 @@ export default function Login(){
         console.log(target.password.value)
     } 
 
+    const actions = [
+        "Remeber Me",
+        "Forgot Password"
+    ]
+
+    const items = actions.map( action => 
+            <a>action</a>
+        )
+
     return(
     <>
     <h2>Login Form</h2>
@@ -35,6 +44,8 @@ export default function Login(){
         <input type="password" name="lastName" id="password" onChange={(e) => setPassword(e.target.value)} />
 
         <input type="submit" value="Submit" />
+        
+        {items}
 
     </form>
     
